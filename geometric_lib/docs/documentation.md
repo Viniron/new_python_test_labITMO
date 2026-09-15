@@ -1,4 +1,4 @@
-# Документация библиотеки geometric_lib
+# Документация библиотеки geometric_lib(Написано с использованием ИИ)
 
 ## Общее описание решения
 
@@ -26,8 +26,8 @@ geometric_lib
 ```python
 import rectangle
 
-print(rectangle.area(4, 5))       # 20
-print(rectangle.perimeter(4, 5))  # 18
+print(rectangle.area(4, 5)) 
+print(rectangle.perimeter(4, 5)) 
 ```
 
 Формулы, по которым ведутся вычисления:
@@ -55,7 +55,7 @@ print(rectangle.perimeter(4, 5))  # 18
 ```python
 import circle
 
-circle.area(3)  # 28.274333882308138
+circle.area(3)
 ```
 
 **perimeter(r)**
@@ -68,7 +68,7 @@ circle.area(3)  # 28.274333882308138
 ```python
 import circle
 
-circle.perimeter(5)  # 31.41592653589793
+circle.perimeter(5)
 ```
 
 ### square.py
@@ -83,7 +83,7 @@ circle.perimeter(5)  # 31.41592653589793
 ```python
 import square
 
-square.area(3)  # 9
+square.area(3) 
 ```
 
 **perimeter(a)**
@@ -96,7 +96,7 @@ square.area(3)  # 9
 ```python
 import square
 
-square.perimeter(3)  # 12
+square.perimeter(3) 
 ```
 
 ### rectangle.py
@@ -112,7 +112,7 @@ square.perimeter(3)  # 12
 ```python
 import rectangle
 
-rectangle.area(4, 5)  # 20
+rectangle.area(4, 5) 
 ```
 
 **perimeter(a, b)**
@@ -126,7 +126,7 @@ rectangle.area(4, 5)  # 20
 ```python
 import rectangle
 
-rectangle.perimeter(4, 5)  # 18
+rectangle.perimeter(4, 5)
 ```
 
 ### triangle.py
@@ -142,7 +142,7 @@ rectangle.perimeter(4, 5)  # 18
 ```python
 import triangle
 
-triangle.area(6, 4)  # 12.0
+triangle.area(6, 4) 
 ```
 
 **perimeter(a, b, c)**
@@ -157,7 +157,7 @@ triangle.area(6, 4)  # 12.0
 ```python
 import triangle
 
-triangle.perimeter(3, 4, 5)  # 12
+triangle.perimeter(3, 4, 5) 
 ```
 
 ## История изменений проекта
@@ -167,4 +167,5 @@ triangle.perimeter(3, 4, 5)  # 12
 | c55e91b | Добавлен новый файл rectangle.py с функциями площади и периметра прямоугольника |
 | e37d566 | Исправлена ошибка в вычислении периметра в rectangle.py, добавлен файл triangle.py |
 | d874a56 | Ко всем функциям библиотеки добавлены комментарии с описанием и примером вызова |
-| — | Добавлена документация проекта в каталог docs |
+| 57988e0 | Добавлена документация проекта в каталог docs |
+|
