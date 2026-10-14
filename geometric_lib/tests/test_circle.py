@@ -5,7 +5,7 @@ from circle import area, perimeter
 
 class CircleAreaTestCase(unittest.TestCase):
     def test_unit_radius(self):
-        self.assertAlmostEqual(area(1), 3.1415926536)
+        self.assertAlmostEqual(area(1), 3.14159265)
 
     def test_integer_radius(self):
         self.assertAlmostEqual(area(5), 78.5398163397)
