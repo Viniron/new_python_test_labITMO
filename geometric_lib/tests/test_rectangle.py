@@ -16,7 +16,6 @@ class RectangleAreaTestCase(unittest.TestCase):
     def test_fractional_sides(self):
         self.assertAlmostEqual(area(2.5, 4), 10.0)
 
-    # от перестановки сторон площадь меняться не должна
     def test_swap_sides(self):
         self.assertEqual(area(3, 7), area(7, 3))
 

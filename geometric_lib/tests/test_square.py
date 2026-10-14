@@ -23,7 +23,6 @@ class SquareAreaTestCase(unittest.TestCase):
         with self.assertRaises(TypeError):
             area('3')
 
-    # сторона не может быть отрицательной, ждём ошибку
     def test_negative_side(self):
         with self.assertRaises(ValueError):
             area(-3)

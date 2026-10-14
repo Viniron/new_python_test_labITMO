@@ -43,7 +43,6 @@ class TrianglePerimeterTestCase(unittest.TestCase):
         with self.assertRaises(ValueError):
             perimeter(-3, 4, 5)
 
-    # такого треугольника не существует: 1 + 2 < 10
     def test_impossible_triangle(self):
         with self.assertRaises(ValueError):
             perimeter(1, 2, 10)

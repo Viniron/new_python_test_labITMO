@@ -22,8 +22,6 @@ class CircleAreaTestCase(unittest.TestCase):
     def test_string_radius(self):
         with self.assertRaises(TypeError):
             area('5')
-
-    # радиус не может быть отрицательным, ждём ошибку
     def test_negative_radius(self):
         with self.assertRaises(ValueError):
             area(-1)
